@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Roboto", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(64, 137, 215, 0.501);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.container{
+    height: 255px;
+    width: 450px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.head .logo img{
+    height: 70px;
+}
+
+.head .chip img{
+    height: 50px;
+    border-radius: 20px;
+    margin: 15px 20px;
+}
+
+.details .number{
+    margin: 15px 35px 5px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.foot .name{
+    margin-left: -20px;
+}
+
+.foot .date{
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
